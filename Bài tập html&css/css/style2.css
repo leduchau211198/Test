@@ -1,0 +1,95 @@
+body{		
+	font-family: 'Tahoma',serif;
+	margin: 0px;
+    padding:0;
+}
+.navbar{
+	background-color:#2d3436;
+	font-size: 15px;
+	text-align: center;
+	padding-right: 15px;
+	padding-top:2px;
+	padding-bottom: 2px;
+}
+.navbar ul{
+	list-style-type: none;
+}
+.navbar ul li{
+	display: inline;
+	margin-right: 20px;
+
+}
+.navbar ul li a{
+	text-decoration: none;
+	color:#fff;
+}
+.main {
+	height: 540px;
+
+	padding-top: 10px;
+}
+.main h1 {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+
+}
+.main img {
+	padding-left: 150px;
+
+}
+
+.main2{
+	float: right;
+}
+.main2{
+	padding-top: 100px;
+}
+.main2 ul{
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   padding-right: 250px;
+   font-size: 25px;
+   font-weight: normal;
+   list-style-type: none;
+}
+.main2 ul li {
+	margin-top:15px; 
+}
+.main2 ul li a {
+	color:#fff;
+	text-decoration: none;
+	background-color: #FFC312;
+	padding:0 40px;
+	border-radius: 3px;
+}
+.foodter{
+	height: 100px;
+	padding-top: 10px;
+background: #2d3436;
+}
+.foodter ul {
+	 font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   padding-left: 50px;
+   font-size: 25px;
+   font-weight: normal;
+   list-style-type: none;
+   margin-top: 6px;
+
+}
+.foodter ul li{
+	font-size: 20px;
+	padding-top: 6px;
+    margin-top:3px; 
+    color: #fff;
+}
+.foodter ul li a{
+	color:#fff;
+	text-decoration: none;
+	background-color: #ffaf40;
+	padding:0 70px;
+	border-radius: 3px;
+}
+
+
