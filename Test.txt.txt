@@ -1,2 +1,7 @@
 hello
+<<<<<<< HEAD
 change!
+=======
+change by a!
+>>>>>>> f3a94f2e3bf59db7db877e571572735fbfa2f1cb
+Lee hau
