@@ -6,7 +6,7 @@ var	Dog=[
 function displayInfor(Dog){
     console.log("\n");
     Dog.map(function(obj){
-        console.log("Tên:" + obj.name  + "  Giống:" + obj.type + "  Tuổi:" + obj.age + "  cân nặng :" + obj.weight);
+        console.log("Tên:" + obj.name  + "  Giống:" + obj.type + "  Tuổi:" + obj.age + "  cân nặng :" + obj.weight);//hiển thị các Dog trong mảng
     });
 };
 displayInfor(Dog);
