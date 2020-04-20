@@ -10,7 +10,7 @@ function appendItem(todo){
        if (todo !== '') {
    	
        li.innerHTML = `
-         
+          <input type="checkbox"  class="cbox" />
           <span>${todo}</span>
           <span class='closeItem'  >X</span>
         `
@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	 appendItem(todo);
 	})
+	 changeCheckbox();
 });
 btn.addEventListener('click', (event) => {
    event.preventDefault();
@@ -70,4 +71,20 @@ function removeFromlocalStorage(i)
         flag = false;
         location.reload()
     }  
+}
+
+function changeCheckbox(){
+    var checkbox = document.getElementsByClassName("cbox");
+
+    for(var i = 0; i < checkbox.length; i++)
+    {
+        checkbox[i].addEventListener( 'change', function() {
+            if(this.checked) {
+                this.parentElement.style.textDecoration = "line-through";
+            } else {
+                // Checkbox is not checked..
+                this.parentElement.style.textDecoration = "none";
+            }
+        });
+    }
 }
