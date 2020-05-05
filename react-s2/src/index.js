@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+// import './src/index.js'
 
-
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(
+    <h1>Wellcome</h1>
+    , document.getElementById("root"));
